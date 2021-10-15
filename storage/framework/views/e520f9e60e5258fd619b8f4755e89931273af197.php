@@ -1,0 +1,7 @@
+<p class="font-weight-bold" style="font-size: 12px;">  <img src="<?php echo e(asset('img/site/new/title/book.svg')); ?>" style="width: 20px;height: 20px;position: relative;top: 3px;" /> &nbsp;دوره‌های آموزشی</p>
+  <hr>
+  <?php $__currentLoopData = $getcourses; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $courses): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+  <P style="margin-top:-2px;margin-bottom: 12px !important;"><span id="CourceTypex0" style="font-size: 12px;"><?php if($courses->CoursesType != ''): ?> دوره <?php endif; ?> <?php echo e($courses->CoursesType); ?></span><?php if($courses->CoursesType != ''): ?> - <?php endif; ?><span style="font-size: 12px;" id="CourceNamex0"><?php echo e($courses->CoursesTitle); ?></span></P>
+  <P style="margin-top:-4px;margin-bottom:12px !important;"><span style="font-size: 11px;" id="CourceInstitutex0"><?php echo e($courses->CoursesInstitute); ?></span> &nbsp;<span class="text-white py-1 px-2 rounded"  style="font-size: 10px !important;font-family:vazir !important;<?php if($courses->CoursesType != ''): ?>  background-color: rgb(255 255 255) !important;color: black !important;box-shadow: 0px 0px 2px 1px #ccc !important;) !important;  <?php endif; ?>" id="CourceYearx0"><?php echo e($courses->CoursesDate); ?></span></P>
+  <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+  </div><?php /**PATH C:\xampp\mysite\resources\views/component/resumex-up/cources.blade.php ENDPATH**/ ?>

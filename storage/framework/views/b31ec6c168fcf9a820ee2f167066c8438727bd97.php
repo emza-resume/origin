@@ -1,0 +1,1 @@
+<?php /**PATH C:\xampp\mysite\resources\views/layouts/resume.blade.php ENDPATH**/ ?>

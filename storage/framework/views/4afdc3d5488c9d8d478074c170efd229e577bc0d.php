@@ -1,0 +1,1 @@
+<?php /**PATH /home/emzaapp1/mysite/resources/views/layouts/resume.blade.php ENDPATH**/ ?>

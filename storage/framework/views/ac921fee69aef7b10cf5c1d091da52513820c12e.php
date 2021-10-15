@@ -1,0 +1,6 @@
+<p class="font-weight-bold" style="font-size: 12px;">  <img src="<?php echo e(asset('img/site/new/title/suitcase.svg')); ?>" style="width: 20px;height: 20px;position: relative;top: 0px;" /> &nbsp;سوابق شغلی</p>
+<hr style="margin-bottom: 10px !important;">
+<?php $__currentLoopData = $getworks; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $works): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+<P style="margin-bottom:7px;"><span style="font-size: 12px;" id="workPostx0"><?php echo e($works->WorkPost); ?></span><?php if($works->WorkPost != ''): ?> - <?php endif; ?><span style="font-size: 12px;" id="workCooperatex0"><?php echo e($works->WorkCooperation); ?></span></P>
+<P><span style="font-size: 11px;" id="workCenterx0"><?php echo e($works->WorkCenter); ?></span> <span style="font-size: 11px;" id="workCenterTitlex0"><?php echo e($works->WorkTitleCenter); ?></span></P>
+<?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?><?php /**PATH C:\xampp\mysite\resources\views/component/resumex-up/work.blade.php ENDPATH**/ ?>
