@@ -1,0 +1,16 @@
+/resources/views/master/layout-main.blade.php
+/node_modules
+/public/hot
+/public
+/public/storage
+/public/img/upload
+/storage/*.key
+/storage/
+/tests
+.env
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log

@@ -1,0 +1,6 @@
+<p class="font-weight-bold" style="font-size:12px">  <img src="{{ asset('img/site/new/title/book (1).svg') }}" style="width: 20px;height: 20px;position: relative;top: 0px;" /> &nbsp;پایان‌نامه</p>
+    <hr>
+    <P style="height:17px;font-size: 12px;" id="thesisTitlex0"></P>
+    <P style="height:17px;font-size: 12px;"><span style="font-size:11px;" id="thesisDefenceTextx0"></span> <span id="thesisDefenceYearx0" style="font-size:11px;color:blue"></span><span id="thesisDefenceMonthx0" style="font-size:11px;color:blue"></span><span id="thesisDefenceDayx0" style="font-size:11px;color:blue"></span>  </P>
+    <P style="height:17px;font-size: 12px;" id="thesisTitlex1"></P>
+    <P style="height:17px;font-size: 12px;"><span style="font-size:11px;" id="thesisDefenceTextx1"></span> <span id="thesisDefenceYearx1" style="font-size:11px;color:blue"></span><span id="thesisDefenceMonthx1" style="font-size:11px;color:blue"></span><span id="thesisDefenceDayx1" style="font-size:11px;color:blue"></span>  </P>

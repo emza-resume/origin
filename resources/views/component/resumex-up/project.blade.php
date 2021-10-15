@@ -1,0 +1,7 @@
+<p class="font-weight-bold" style="font-size: 12px;">  <img src="{{ asset('img/site/new/title/file.svg') }}" style="width: 20px;height: 20px;position: relative;top: 0px;" /> &nbsp;پروژه‌ها</p>
+  <hr>
+  @foreach($getprojects as $project)
+  <P style="font-size: 12px;" id="projectTitlex0">{{ $project->ProjectTitle }}</P>
+  <P style="font-size: 12px;"><span style="font-size: 12px;"><span style=";font-size:11px" id="textStartP0">@if($project->ProjectTitle != '')شروع: @endif</span>  <span style="font-size:11px;color:darkblue !important;" id="projectMEx0">@if($project->ProjectTitle != '') {{ $project->ProjectDateStart }} @endif</span> <span style="font-size:11px" id="projectYEx0"></span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size:11px;" id="textEndP0">@if($project->ProjectTitle != '')پایان: @endif</span>  <span style="font-size:11px;color:darkblue !important;" id="projectMEEd">@if($project->ProjectTitle != '') {{ $project->ProjectDateEnd }} @endif</span> <span style="font-size:11px" id="projectYEEx0"></span></span></P>
+  <P style="font-size: 12px;">@if($project->ProjectTitle != '')کارفرما: @endif<span style="font-size:11px" id="EmployerText0">{{ $project->ProjectEmployer }}</span><span style="font-size:11px" id="ProjectEmployerx0"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size:11px;" >@if($project->ProjectTitle != '')<a href="{{ $project->ProjectLink }}" target="_black" style="font-size:11px;color:darkblue !important;" id="ProjectLink0" >لینک پروژه</a>@endif</span></P>
+  @endforeach
